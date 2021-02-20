@@ -5,7 +5,7 @@ import unittest
 
 class TestUI(unittest.TestCase):
   
-    def try_registration(_, this, url ):
+    def try_registration(_, url ):
         print(url)
         try: 
             browser = webdriver.Chrome()
@@ -40,13 +40,11 @@ class TestUI(unittest.TestCase):
     
     def test_first_page(self):
         url = "http://suninjuly.github.io/registration1.html"
-        print(1, self, url)
-        self.try_registration(self, url)
+        self.try_registration(url)
 
     def test_second_page(self):
         url = "http://suninjuly.github.io/registration2.html"
-        print(2, self, url)
-        self.try_registration(self, url)
+        self.try_registration( url)
 
 
 if __name__ == '__main__':
