@@ -5,7 +5,7 @@ import unittest
 
 class TestUI(unittest.TestCase):
   
-    def try_registration(_, url ):
+    def try_registration(self, url ):
         print(url)
         try: 
             browser = webdriver.Chrome()
@@ -30,11 +30,11 @@ class TestUI(unittest.TestCase):
             welcome_text = welcome_text_elt.text
 
             # с помощью assert проверяем, что ожидаемый текст совпадает с текстом на странице сайта
-            this.assertEqual("Congratulations! You have successfully registered!", welcome_text)
+            self.assertEqual("Congratulations! You have successfully registered!", welcome_text)
 
         finally:
             # ожидание чтобы визуально оценить результаты прохождения скрипта
-            time.sleep(10)
+            time.sleep(1)
             # закрываем браузер после всех манипуляций
             browser.quit()
     
