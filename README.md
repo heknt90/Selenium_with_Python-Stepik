@@ -42,7 +42,7 @@
 
     pip install -r requirements.txt
 
-### Запуск тестов
+## Запуск тестов
 
     pytest path-to-file
     pytest -s -v --setup-show path-to-file
