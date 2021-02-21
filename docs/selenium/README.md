@@ -20,12 +20,12 @@
 
     browser.execute_script('return window.scrollBy(0, 100)')
 
-### Принять confirm
+## Принять confirm
 
     confirm = browser.switch_to.alert
     confirm.accept()
 
-### Переключиться на новую вкладку
+## Переключиться на новую вкладку
 
     second_window = browser.window_handles[1]
     browser.switch_to.window(second_window)
