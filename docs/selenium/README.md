@@ -53,4 +53,7 @@ or
 ## Скриншот страницы
 
     browser.save_screenshot('sr.png')
+
+## Завершить тест
+
     browser.quit()
