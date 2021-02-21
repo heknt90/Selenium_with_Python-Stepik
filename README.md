@@ -23,3 +23,14 @@
 Для запуска автоматической установки библиотек из файла, воспользуйтесь командой:
 
     pip install -r requirements.txt
+
+## PyTest
+
+### Запуск тестов
+
+    pytest path-to-file
+    pytest -s -v --setup-show path-to-file
+
+запуск тестов маркированных метками (например smoke, regression)
+
+    pytest -s -v -m <mark> path-to-file
