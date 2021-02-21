@@ -3,8 +3,8 @@ from selenium import webdriver
 
 link = "http://selenium1py.pythonanywhere.com/"
 
-@pytest.fixture
-def browser(scope="class"):
+@pytest.fixture(scope="class")
+def browser():
     print("\nstart browser for tet...")
     browser = webdriver.Chrome()
     yield browser
