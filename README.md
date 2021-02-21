@@ -11,6 +11,20 @@
 
 [Шпаргалки](docs/README.md)
 
+## Установка драйверов
+
+Для работы с каждым из браузеров требуется скачивание нужного драйвера.
+Драйвер достаточно разместить в некоторой папке на компьютере, например
+
+    C:\webdrivers
+
+После чего прописать этот путь в системной переменной PATH
+
+### Список драйверов
+
+- для Google Chrome - [chromedriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+- для Mozilla Firefox - [geckodriver](https://github.com/mozilla/geckodriver/releases)
+
 ## Настройка окружения
 
 Для установки виртуального окружения (на Windows)
