@@ -1,5 +1,5 @@
 # Run with
-# pytest -v --tb=line --reruns 1 --browser_name=chrome test_rerun.py
+# pytest -v --tb=line --reruns 1 --browser-name=chrome test_rerun.py
 
 link = "http://selenium1py.pythonanywhere.com/"
 
